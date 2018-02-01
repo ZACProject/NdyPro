@@ -1,0 +1,112 @@
+
+@charset "UTF-8";
+/* ユニバーサルセレクタ   */
+*{
+	margin:0;
+	padding:0;
+}
+/*floatの解除*/
+.clearfix:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility:hidden;
+}
+#position span.Logout{
+	float:right;
+	color:#3880B4;
+}
+.wrap .box,.box4{
+	display:flex;
+	height:72px;
+	border:1px solid #CFDFE9;
+	margin:20px auto;
+	line-height:72px;
+	border:1px solid #CFDFE9;
+	justify-content:space-between;
+}
+.wrap .box .description textarea{
+
+	vertical-align:middle;
+	width:264px;
+	height:70px;
+	color:#3880B4;
+	resize:none;/* textareaの拡大の禁止 */
+	text-overflow: ellipsis;
+    overflow: hidden;
+
+
+}
+
+.wrap .box4 input{
+	width:200px;
+	height:70px;
+
+
+}
+.wrap .box1,.box2,.box3{
+	display:flex;
+	height:35px;
+	margin:20px auto;
+	line-height:35px;
+	border:1px solid #CFDFE9;
+	justify-content:space-between;
+}
+
+.wrap .box1 div,.box2 div,.box3 div,.box4 div{
+	display:inline-block;
+}
+.wrap label{
+	display:inline-block;
+	width:100px;
+	text-align:left;
+	color:#3880B4;
+}
+.wrap input{
+
+	height:24px;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    color:#3880B4;
+}
+ .wrap .box1 input{
+	width:200px;
+}
+.wrap .box2 input{
+	width:260px;
+}
+.wrap .box3 input {
+	width:200px;
+}
+
+.wrap .box2 .companyid,.capactiy2,
+.linkurl1,.linkurl2,.linkurl3,.duedate{
+	float:right;
+}
+.linkurl input,.linkurl1 input,.linkurl2 input,.linkurl3 input{
+	text-align:center;
+	vertical-align:middle;
+
+}
+
+.wrap-sub{
+	display:flex;
+	margin-top:20px;
+	text-align:center;
+	justify-content:space-around;
+}
+.wrap-sub input{
+	width:150px;
+	height:25px;
+	background:#CFDFE9;
+	border-radius: 10px;
+	border:none;
+	cursor:pointer;
+	color:#5589AA;
+	font-weight: bold;
+
+}
+.wrap input.sub:hover{
+	color:pink;
+}

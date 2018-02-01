@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+/* ユニバーサルセレクタ   */
+*{
+	margin:0;
+	padding:0;
+}
+/*floatの解除*/
+.clearfix:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility:hidden;
+}
+
+
+body{
+	max-width:960px;
+	margin:0 auto;
+	background:white;
+}
+#header{
+	width:100%;
+	height:62px;
+	/* background:url("./images/lan2.jpg")no-repeat center/cover; */
+	 background:#CFDFE9;
+
+}
+
+
+#header .h-logo{
+	margin-left:20px;
+	padding-top:5px;
+	float:left;
+}
+#header .h-logo  .photo{
+	width:50px;
+	height:50px;
+
+}
+
+
+
+
+
+ #header .theme{
+ 	font-size:20px;
+ 	color:#0660A3;
+ 	font-weight:bold;
+	line-height:60px;
+	float:left;
+	margin-left:10px;
+
+}
+
+#header .url{
+	float:right;
+	padding-top:22px;
+	font-size:16px;
+	color:#0660A3;
+}
+
+
+#menu{
+	width:100%;
+	height:50px;
+	/* background:#BCEFFD; */
+	background:#EFF8FF;
+	font-weight:bold;
+}
+
+ #menu ul {
+
+	width:100%;
+	height:100%;
+	line-height:50px;
+	list-style:none;
+    float: left;
+    margin-left: 200px;
+
+}
+
+#menu ul li{
+
+	margin-right:20px;
+	color:blue;
+	display: inline-block;
+	/* background:#0660A3; */
+
+}
+
+a:link{
+	color:#0660A3;
+	text-decoration:none;
+}
+
+	a:visited{
+		 color:#0660A3;
+		text-decoration:none;
+}
+
+	a:hover{
+		color:#FFC0CB;
+		text-decoration:underline;
+		/* background:white; */
+}
+
+	a:active{
+		color:#BF1E56;
+		text-decoration:underline;
+}
+
+

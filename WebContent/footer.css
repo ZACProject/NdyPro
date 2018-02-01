@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* ユニバーサルセレクタ   */
+*{
+	margin:0;
+	padding:0;
+}
+/*floatの解除*/
+.clearfix:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility:hidden;
+}
+
+  #footer{
+ 	width:100%;
+ 	height:129px;
+	/* margin-top:30px;
+	margin-bottom:30px; */
+	/* margin:100px auto; */
+	background:#CFDFE9;
+	color:#0660A3;
+	margin:30px auto;
+
+
+}
+.footer-text{
+	float:right;
+}
+
+
+h3{
+	text-align:center;
+	color:blue;
+}

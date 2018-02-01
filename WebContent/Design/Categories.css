@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* ユニバーサルセレクタ   */
+*{
+	margin:0;
+	padding:0;
+}
+/*floatの解除*/
+.clearfix:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility:hidden;
+}
+
+#position span.Logout{
+	float:right;
+	color:#3880B4;
+}
+
+
+.wrap .box,.box2{
+
+	height:35px;
+	margin:20px auto;
+
+	/* padding-left:50px;
+	padding-right:50px; */
+	line-height:35px;
+	 border:1px solid #CFDFE9;
+	 color:#3880B4;
+
+}
+.wrap .box2 div{
+	display:inline-block;
+}
+.wrap .box{
+	height:72px;
+}
+
+ .wrap .box2 .categoryname,.linkurl,.duedate {
+	float:right;
+
+}
+.wrap label{
+	display:inline-block;
+	width:112px;
+	text-align:left;
+	/* text-align:justify; */
+
+}
+
+
+/* .wrap .box1 .description  label{
+	display：inline-block;
+	vertical-align:middle;
+	text-align:left;
+} */
+.wrap .box .description textarea{
+	display：inline-block;
+	vertical-align:middle;
+	width:264px;
+	height:70px;
+	color:#3880B4;
+	resize:none;/* textareaの拡大の禁止 */
+}
+
+
+
+
+.wrap input{
+	width:260px;
+	height:24px;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    color:#3880B4;
+
+}
+.linkurl input{
+	text-align:center;
+	vertical-align:middle;
+}
+.wrap-sub{
+	display:flex;
+	margin-top:20px;
+	text-align:center;
+	justify-content:space-around;
+}
+.wrap-sub input{
+	width:150px;
+	height:25px;
+	background:#CFDFE9;
+	border-radius: 10px;
+	border:none;
+	cursor:pointer;
+	color:#5589AA;
+	font-weight: bold;
+
+}
+
+.wrap input.sub:hover{
+	color:pink;
+}

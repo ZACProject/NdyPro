@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/*@import url("WebContent/Wellcome.css");*/
+*{
+		margin:0px;
+		padding:0px;
+	}
+/*floatの解除*/
+.clearfix:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility:hidden;
+}
+
+
+/* body{
+
+		background:url("../images/danya.jpg") no-repeat center/cover;
+		background-color:#E9F1F5;
+
+} */
+#navigation  span.Logout{
+	float:right;
+	color:#0660A3;
+}
+
+
+form{
+		margin-top:20px;
+}
+table{
+		border: 1px solid transparent;
+		margin-left: auto;
+ 		margin-right: auto;
+		table-layout: fixed;
+		/* width:960px; */
+		width:100%;
+}
+ tr th{
+		background-color:#CFDFE9;
+		color:#0660A3;
+		font-size:16px;
+		height:50px;
+		border:none;
+		 text-align:center;
+}
+ tr td{
+		text-align:left;
+		border:none;
+		font-size:12px;
+		text-overflow: ellipsis;
+    	overflow: hidden;
+    	white-space: nowrap;
+		height:33px;
+		text-indent:2em;
+		color:#0660A3;
+}
+td .page{
+  	text-align: center;
+  	font-weight: bold;
+  }
+
+a:link{
+		color:blue;
+		text-decoration:none;
+	}
+
+	a:visited{
+		color:#BF1E56;
+		text-decoration:none;
+	}
+
+	a:hover{
+		color:#FFC0CB;
+		text-decoration:underline;
+	}
+
+	a:active{
+		color:#BF1E56;
+		text-decoration:underline;
+	}
+table tr:nth-child(even){
+
+		background:#EFF8FF;
+
+
+
+}
+table tr:nth-child(odd){
+
+		background: #D1E5EE;
+
+}
+
+
+.editer img{
+	width:28px;
+	height:28px;
+	margin-left:40px;
+}
+.picture img{
+	width:28px;
+	height:28px;
+	margin-left:25px;
+}
+ tr .text-box{
+		width:900px;
+		height:30px;
+		border:none;
+		background-color:transparent;
+		outline:none;
+
+  }
+.submit{
+	display:flex;
+	margin-top:20px;
+	text-align:center;
+	justify-content:space-around;
+}
+.submit  input{
+	width:150px;
+	height:25px;
+
+	background:#CFDFE9;
+	border-radius: 10px;
+	border:none;
+	cursor:pointer;
+	color:#5589AA;
+	font-weight: bold;
+
+}

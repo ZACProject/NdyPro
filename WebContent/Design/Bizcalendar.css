@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* ユニバーサルセレクタ   */
+*{
+	margin:0;
+	padding:0;
+}
+/*floatの解除*/
+.clearfix:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility:hidden;
+}
+#position span.Logout{
+	float:right;
+	color:#3880B4;
+}
+
+.wrap .box3{
+	display:flex;
+	height:35px;
+	margin:20px auto;
+	line-height:35px;
+	border:1px solid #CFDFE9;
+	justify-content:space-between;
+}
+.wrap .box{
+	height:72px;
+	border:1px solid #CFDFE9;
+}
+.wrap .box .description textarea{
+	display：inline-block;
+	vertical-align:middle;
+	width:264px;
+	height:70px;
+	color:#3880B4;
+	resize:none;/* textareaの拡大の禁止 */
+	text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+.wrap  .box3  input{
+	width:200px;
+	height:24px;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    color:#3880B4;
+}
+.wrap label{
+	display:inline-block;
+	width:100px;
+	text-align:left;
+}
+	/* text-align:center;
+
+	background-color:#9CD6FC; */
+
+
+
+/* wrap .box3 .description  label{
+	display：inline-block;
+	vertical-align:middle;
+} */
+/* .wrap .box1 .description textarea{
+	display：inline-block;
+	vertical-align:middle;
+	width:264px;
+	height:70px;
+	color:#3880B4;
+	 resize:none;textareaの拡大の禁止
+
+} */
+/* wrap input{
+	width:260px;
+	height:33px;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    border:none;
+    background:pink;
+
+
+} */
+.wrap-sub{
+	display:flex;
+	margin-top:20px;
+	text-align:center;
+	justify-content:space-around;
+}
+.wrap-sub input{
+	width:150px;
+	height:25px;
+	background:#CFDFE9;
+	border-radius: 10px;
+	border:none;
+	cursor:pointer;
+	color:#5589AA;
+	font-weight: bold;
+
+}
+.wrap input.sub:hover{
+	color:pink;
+}
+
